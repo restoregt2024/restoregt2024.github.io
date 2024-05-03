@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us - Our Candidates</title>
+<style>
+    .candidate {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 75px; /* Circular images */
+    }
+    .description {
+        display: none;
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+<h1>Meet Our Candidates</h1>
+
+<div class="candidate">
+    <img src="placeholder.jpg" alt="Michael Bosch">
+    <h3>Michael Bosch - Supervisor</h3>
+    <button onclick="toggleDescription('bosch')">Read More</button>
+    <div class="description" id="bosch">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque. Sed pharetra nibh eget orci convallis at posuere leo convallis.</p>
+    </div>
+</div>
+
+<div class="candidate">
+    <img src="placeholder.jpg" alt="Ryan Kidd">
+    <h3>Ryan Kidd - Clerk</h3>
+    <button onclick="toggleDescription('kidd')">Read More</button>
+    <div class="description" id="kidd">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque. Sed pharetra nibh eget orci convallis at posuere leo convallis.</p>
+    </div>
+</div>
+
+<div class="candidate">
+    <img src="placeholder.jpg" alt="Ryan Smarszcz">
+    <h3>Ryan Smarszcz - Treasurer</h3>
+    <button onclick="toggleDescription('smarszcz')">Read More</button>
+    <div class="description" id="smarszcz">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque. Sed pharetra nibh eget orci convallis at posuere leo convallis.</p>
+    </div>
+</div>
+
+<div class="candidate">
+    <img src="placeholder.jpg" alt="Kim VanderLey">
+    <h3>Kim VanderLey - Trustee</h3>
+    <button onclick="toggleDescription('vanderley')">Read More</button>
+    <div class="description" id="vanderley">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque. Sed pharetra nibh eget orci convallis at posuere leo convallis.</p>
+    </div>
+</div>
+
+<div class="candidate">
+    <img src="placeholder.jpg" alt="Pete Plowman">
+    <h3>Pete Plowman - Trustee</h3>
+    <button onclick="toggleDescription('plowman')">Read More</button>
+    <div class="description" id="plowman">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque. Sed pharetra nibh eget orci convallis at posuere leo convallis.</p>
+    </div>
+</div>
+
+<div class="candidate">
+    <img src="placeholder.jpg" alt="Joe Carron">
+    <h3>Joe Carron - Trustee</h3>
+    <button onclick="toggleDescription('carron')">Read More</button>
+    <div class="description" id="carron">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque. Sed pharetra nibh eget orci convallis at posuere leo convallis.</p>
+    </div>
+</div>
+
+<script>
+function toggleDescription(id) {
+    var description = document.getElementById(id);
+    if(description.style.display === 'block') {
+        description.style.display = 'none';
+    } else {
+        description.style.display = 'block';
+    }
+}
+</script>
+
+</body>
+</html>
