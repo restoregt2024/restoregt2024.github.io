@@ -37,7 +37,8 @@ section
 
 footer
 {
-    text-align: center;
+    font-family: Arial, sans-serif;
+    text-align: Left;
     padding: 10px 0;
     background-color: #001BFF;
     color: white;
