@@ -49,3 +49,8 @@ footer
     background-color: #001BFF;
     color: white;
 }
+
+p
+{
+    max-width: 400px;
+}
