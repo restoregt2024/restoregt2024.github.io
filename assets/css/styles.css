@@ -40,7 +40,7 @@ footer
     font-family: Arial, sans-serif;
     text-align: Left;
     padding: 10px;
-    line-height: 1em;
+    line-height: 0.1em;
     background-color: #001BFF;
     color: white;
 }
