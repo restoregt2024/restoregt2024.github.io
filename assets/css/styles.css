@@ -19,13 +19,11 @@ nav ul
 {
     list-style: none;
     padding: 0;
-<p>
-  <a href="#b">Default Link Color</a>
-  <br />
-  <a href="#b" style="color:#36AE7C;">Changed Link Color</a>
-  <br />
-</p>
+}
 
+a
+{
+    color:#36AE7C;
 }
 
 nav ul li
