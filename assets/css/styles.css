@@ -18,14 +18,19 @@ header
 nav ul
 {
     list-style: none;
-    color: White;
     padding: 0;
+<p>
+  <a href="#b">Default Link Color</a>
+  <br />
+  <a href="#b" style="color:#36AE7C;">Changed Link Color</a>
+  <br />
+</p>
+
 }
 
 nav ul li
 {
     display: inline;
-    color: White;
     margin-right: 10px;
 }
 
