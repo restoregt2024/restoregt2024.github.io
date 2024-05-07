@@ -1,6 +1,7 @@
 body
 { 
     font-family: Arial, sans-serif;
+    text-align: center;
     margin: 0;
     padding: 0;
     color: #333;
@@ -52,6 +53,5 @@ footer
 
 p
 {
-    text-align: center;
     max-width: 400px;
 }
