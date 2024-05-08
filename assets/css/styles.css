@@ -8,6 +8,18 @@ body
     background-color: #f4f4f4;
 }
 
+@media screen 
+{
+
+    body
+    {
+        background-image: url("../images/fabric-of-squares.png");
+    }
+}
+
+
+
+
 header
 {
     background-color: #001BFF;
