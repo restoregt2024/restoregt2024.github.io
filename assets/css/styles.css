@@ -67,6 +67,7 @@ footer
 {
     font-family: Arial, sans-serif;
     text-align: Left;
+    word-wrap: break-word;
     padding: 10px;
     line-height: 0.1em;
     background-color: #00247d;
