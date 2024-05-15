@@ -1,16 +1,18 @@
 body
-{ 
+{
     font-family: Arial, sans-serif;
-    text-align: center;
     margin: 0;
     padding: 0;
     color: #333;
     background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 @media screen 
 {
-
     body
     {
         background-image: url("../images/fabric-of-squares.png");
@@ -29,6 +31,7 @@ header
     padding: 20px 20px;
     text-align: center;
 }
+
 @media print 
 {
     header
@@ -60,12 +63,13 @@ section
     padding: 20px;
     background-color: white;
     border: 1px solid #ddd;
-    text-align: center;
+    text-align: left; /* Keeps the text aligned to the left */
 }
 
 section#home
 {
     max-width: 1000px;
+    width: 100%; /* Ensure section takes up available width */
 }
 
 footer
