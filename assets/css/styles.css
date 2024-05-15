@@ -10,6 +10,15 @@ body
     /* align-items: center; */
     flex-direction: column;
 }
+
+article
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 main
 {
     display: flex;
@@ -98,11 +107,13 @@ p, h2, h4
 {
     text-align: left;
 }
+
 p.bio
 {
     text-align: center;
     max-width: 800px;
 }
+
 .paid 
 {
     padding-bottom: 3px;
