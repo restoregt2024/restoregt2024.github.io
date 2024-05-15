@@ -63,6 +63,11 @@ section
     text-align: center;
 }
 
+section#home
+{
+    max-width: 1000px;
+}
+
 footer
 {
     font-family: Arial, sans-serif;
@@ -74,7 +79,7 @@ footer
     color: white;
 }
 
-p
+p, h2, h4
 {
-    text-align: Left;
+    text-align: left;
 }
