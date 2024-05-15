@@ -98,7 +98,11 @@ p, h2, h4
 {
     text-align: left;
 }
-
+p.bio
+{
+    text-align: center;
+    max-width: 800px;
+}
 .paid 
 {
     padding-bottom: 3px;
