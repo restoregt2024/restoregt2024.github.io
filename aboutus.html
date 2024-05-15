@@ -20,6 +20,9 @@
         display: none;
         margin-top: 10px;
         text-align: center;
+        align-items: center;
+    justify-content: center;
+    flex-direction: column;
     }
 </style>
 </head>
@@ -94,10 +97,10 @@
 <script>
 function toggleDescription(id) {
     var description = document.getElementById(id);
-    if(description.style.display === 'block') {
+    if(description.style.display === 'flex') {
         description.style.display = 'none';
     } else {
-        description.style.display = 'block';
+        description.style.display = 'flex';
     }
 }
 </script>
