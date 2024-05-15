@@ -79,6 +79,11 @@ footer
     color: white;
 }
 
+.description
+{
+    max-width: 85%;
+}
+
 p, h2, h4
 {
     text-align: left;
