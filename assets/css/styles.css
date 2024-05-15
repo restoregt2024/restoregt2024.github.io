@@ -74,7 +74,7 @@ footer
     text-align: Left;
     word-wrap: break-word;
     padding: 10px;
-    /* line-height: 0.1em; */
+    line-height: 16px;
     background-color: #00247d;
     color: white;
 }
