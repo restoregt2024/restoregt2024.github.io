@@ -17,12 +17,16 @@ header
 .bio
 {
     text-align: center;
-    max-width: 800px;
-    max-width: 80%;
+    max-width: 95%;
 }
 
 article
 {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    max-width: 800px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -101,10 +105,12 @@ section.OurValues
     width: 85%; /* Ensure section takes up available width */
 }
 
+
 p, h2, h4
 {
     text-align: left;
 }
+
 
 .paid 
 {
