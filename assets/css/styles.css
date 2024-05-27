@@ -82,10 +82,10 @@ section
     text-align: left; /* Keeps the text aligned to the left */
 }
 
-section#home
+section.OurValues
 {
     max-width: 800px;
-    width: 100%; /* Ensure section takes up available width */
+    width: 85%; /* Ensure section takes up available width */
 }
 
 footer
