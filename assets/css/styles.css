@@ -1,14 +1,24 @@
-body
+header
 {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    background-color: #f4f4f4;
+    background-color: #00247d;
+    color: White;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.description
+{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-direction: column;
+    align-items: center;
+}
+
+.bio
+{
+    text-align: center;
+    max-width: 800px;
+    max-width: 80%;
 }
 
 article
@@ -17,7 +27,18 @@ article
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
 
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;      /* align-items: center; */
+    flex-direction: column;
 }
 
 main
@@ -38,14 +59,6 @@ main
 a 
 {
     color: red;
-}
-
-header
-{
-    background-color: #00247d;
-    color: White;
-    padding: 20px 20px;
-    text-align: center;
 }
 
 @media print 
@@ -88,6 +101,16 @@ section.OurValues
     width: 85%; /* Ensure section takes up available width */
 }
 
+p, h2, h4
+{
+    text-align: left;
+}
+
+.paid 
+{
+    padding-bottom: 3px;
+}
+
 footer
 {
     font-family: Arial, sans-serif;
@@ -97,26 +120,4 @@ footer
     line-height: 16px;
     background-color: #00247d;
     color: white;
-}
-
-.description
-{
-    max-width: 85%;
-}
-
-p, h2, h4
-{
-    text-align: left;
-}
-
-p.bio
-{
-
-    text-align: center;
-    max-width: 800px;
-}
-
-.paid 
-{
-    padding-bottom: 3px;
 }
